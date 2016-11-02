@@ -6,17 +6,7 @@
     <link rel="stylesheet" href="https://granze.github.io/playground/assets/content-tools.min.css">
 </head>
 <body>
-<script>
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('service-worker/index.html').then(function(registration) {
-            // Registration was successful
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-        }).catch(function(err) {
-            // registration failed :(
-            console.log('ServiceWorker registration failed: ', err);
-        });
-    }
-</script>
+<iframe src="https://granze.github.io/playground/sw.html" frameborder="0"></iframe>
 <script src="https://granze.github.io/playground/assets/content-tools.min.js"></script>
 </body>
 </html>
