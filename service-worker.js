@@ -1,5 +1,5 @@
 var CACHE_NAME = 'gimb-cache-v3';
-var assetBaseUrl = 'http://localhost:8001';
+var assetBaseUrl = 'https://granze.github.com/playground';
 var urlsToCache = [
   assetBaseUrl+'/assets/content-tools.min.js',
   assetBaseUrl+'/assets/content-tools.min.css'
